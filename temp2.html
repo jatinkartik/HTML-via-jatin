@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1> -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/master.css">
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- Bootstrap-JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-left navbar-expand-lg navbar-dark" style="background-color: #301b3f">
+  <a class="navbar-brand" href="/" style="text-align: center;">          tinyNET</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link hme " style="color: #fff" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="/about-us"><button type="button" class="ctnme" style="color: #ffffff" name="button">About Us</button></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<script type="text/javascript">
+    document.oncontextmenu = new Function("return false;");
+</script>
+</html>
+  </body>
+</html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/master.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  </head>
+  <footer>
+    <div class="copyright">
+      <p>&#169; 2021 copyright all right reserved</p>
+    </div>
+  </footer>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>tinyNET</title>
+    <!-- roboto-font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font-Awesome -->
+      <script src="https://kit.fontawesome.com/3504783811.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="card">
+      <div class="container">
+        <form action="/app" method="post">
+          <input class="long-url" type="text" name="longUrl" value="" placeholder="URL">
+          <button class="short-btn" type="submit" name="button">Short URL!</button>
+          <input class="short-url" readonly id="rd-shrturl" type="text" name="short-url" value="" placeholder="Shorten-URL"><br>
+          <button type="button" onclick="copyTextClip()" name="cpy-btn" class="cpy-btn"><i class="fa fa-link" aria-hidden="true"></i></button>
+          <h5 class="copied-succ" id="cpy-succ">link copied..!</h5>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="js/script.js" charset="utf-8"></script>
+</html>
